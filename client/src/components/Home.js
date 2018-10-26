@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Container, Header, Segment, Button, Icon, Dimmer, Loader, Divider }
   from 'semantic-ui-react'
 
-class App extends Component {
+class Home extends Component {
   constructor () {
     super()
     this.state = {}
@@ -87,4 +87,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
